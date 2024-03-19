@@ -3,3 +3,8 @@ body{
     font-family: 'Montserrat, sans-serif';
     background-color: #f7f7f7;
 }
+
+.container{
+background-color: black;
+box-shadow: 0 0 20px;
+}
