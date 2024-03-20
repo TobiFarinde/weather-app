@@ -9,4 +9,15 @@ background-color: #fff;
 box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 margin-top: 50px;
 text-align: center;
+max-width: 600px;
+margin:0 auto;
+border-radius: 5px;
+padding: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
