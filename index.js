@@ -16,6 +16,9 @@ getweatherData(cityValue);
 function getweatherData(cityValue){
     try {
         const response = await fetch(`https://api.openweatheramap.org/data/2.5/weather?q=${cityValue}&appid=${apikey}&units=metric`)
+  if(response.ok){
+    throw new Error("Network response was not ok")
+  }
     } catch (error) {
         
     }
