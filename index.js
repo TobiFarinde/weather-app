@@ -10,4 +10,13 @@ formEl.addEventListener("submit", (event)=>{
 event.preventDefault();
 const cityValue = cityInputEl.value;
 console.log(cityValue);
+getweatherData(cityValue);
 });
+
+function getweatherData(cityValue){
+    try {
+        
+    } catch (error) {
+        
+    }
+}
