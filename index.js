@@ -36,7 +36,7 @@ function getweatherData(cityValue){
     `Wind speed: ${data.wind.speed}`
   ]
 
-  
+  waetherDataEl.querySelector(".icon").innerHTML = ''
     } catch (error) {
         
     }
