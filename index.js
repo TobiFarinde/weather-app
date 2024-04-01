@@ -28,11 +28,15 @@ function getweatherData(cityValue){
 
   const icon = data.weather[0].icon
 
-  const humidity = data.weather[0].ddescriptiion
+
 
   const details = [
     `Feels like: ${Math.round (data.main.feels_like)}`
+    `Humidity: ${data.main.humidity}`
+    `Wind speed: ${data.wind.speed}`
   ]
+
+  
     } catch (error) {
         
     }
