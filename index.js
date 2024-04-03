@@ -36,7 +36,9 @@ function getweatherData(cityValue){
     `Wind speed: ${data.wind.speed}`
   ]
 
-  waetherDataEl.querySelector(".icon").innerHTML = ''
+            <div class="temperature">22°C</div>
+            <div class="temperature">22°C</div>
+            waetherDataEl.querySelector(".icon").innerHTML =<img src= 'http://openweathermap.org/img/wn/0ld.png''
     } catch (error) {
         
     }
