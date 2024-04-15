@@ -39,7 +39,9 @@ function getweatherData(cityValue){
             <div class="temperature">22°C</div>
             <div class="temperature">22°C</div>
             waetherDataEl.querySelector(".icon").innerHTML =<img src= 'http://openweathermap.org/img/wn/${icon.0ld.png''
-    } catch (error) {
+            waetherDataEl.querySelector(".details").inner html
+    
+          } catch (error) {
 
        waetherDataEl.querySelector( 
         ".temperature" 
