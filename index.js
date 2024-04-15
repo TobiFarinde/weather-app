@@ -42,6 +42,7 @@ function getweatherData(cityValue){
     } catch (error) {
 
        waetherDataEl.querySelector( 
-        ".temperature" .textContent) = `${temperature}C`
+        ".temperature" 
+        ).textContent) = `${temperature}C` ;
     }
 
